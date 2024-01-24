@@ -1,0 +1,29 @@
+{
+  "name": "nodeloc/oauth2-telegram",
+  "description": "Telegram OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "James ",
+      "email": "james@nodeloc.com",
+      "homepage": "https://www.nodeloc.com"
+    }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authentication",
+    "telegram"
+  ],
+  "require": {
+    "php": "^8.0",
+    "league/oauth2-client": "^2.6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nodeloc\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
