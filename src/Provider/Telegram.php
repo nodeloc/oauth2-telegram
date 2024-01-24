@@ -4,6 +4,7 @@ namespace Nodeloc\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Token\AccessToken;
+use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use Nodeloc\OAuth2\Client\Exception\TelegramIdentityProviderException;
 use Psr\Http\Message\ResponseInterface as Response;
 

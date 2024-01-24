@@ -2,9 +2,7 @@
 
 namespace Nodeloc\OAuth2\Client\Provider;
 
-use JetBrains\PhpStorm\Pure;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
-use League\OAuth2\Client\Tool\ArrayAccessorTrait;
 
 class TelegramResourceOwner implements ResourceOwnerInterface
 {
