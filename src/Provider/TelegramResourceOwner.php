@@ -29,7 +29,10 @@ class TelegramResourceOwner implements ResourceOwnerInterface
     {
         return null;
     }
-
+    public function getAvatar()
+    {
+        return $this->response['photo_url'];
+    }
     public function toArray(): array
     {
         return $this->response;
